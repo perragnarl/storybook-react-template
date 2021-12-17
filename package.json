@@ -1,10 +1,24 @@
 {
   "scripts": {
-    "start": "snowpack dev",
     "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/react": "^6.4.9",
+    "@whitespace/storybook-addon-html": "^5.0.0",
+    "babel-loader": "^8.2.3",
+    "postcss": "^8.4.5",
     "snowpack": "^3.3.7"
+  },
+  "dependencies": {
+    "@storybook/addons": "^6.4.9",
+    "@storybook/theming": "^6.4.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

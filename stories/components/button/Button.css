@@ -1,0 +1,21 @@
+.button {
+	display: inline-flex;
+	border-radius: 5px;
+	border: 0;
+	font-family: sans-serif;
+	line-height: 1;
+	padding:0.75rem 1.25rem;
+	font-weight: bold;
+	cursor: pointer;
+}
+.button--primary {
+	background-color: #805b89;
+	color: white;
+}
+.button--secondary {
+	background-color: #fce2d4;
+}
+.button--ghost {
+	border: 2px solid #585857;
+	background-color: transparent;
+}
