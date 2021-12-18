@@ -1,3 +1,4 @@
+import "../src/main.css";
 import { themes } from '@storybook/theming';
 
 export const parameters = {
@@ -8,7 +9,5 @@ export const parameters = {
 			date: /Date$/,
 		},
 	},
-	docs: {
-	  theme: themes.dark,
-	},
+	layout: 'fullscreen'
 };
