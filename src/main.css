@@ -1,6 +1,6 @@
 @import "./base/config.css";
 @import "./base/base.css";
-@import "./components/header/Header.css";
-@import "./components/footer/Footer.css";
-@import "./components/navigation/main-nav/MainNav.css";
-@import "./components/button/Button.css";
+@import "./components/static/header/Header.css";
+@import "./components/static/footer/Footer.css";
+@import "./components/static/navigation/main-nav/MainNav.css";
+@import "./components/static/button/Button.css";

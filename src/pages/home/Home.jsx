@@ -1,6 +1,6 @@
-import { Button } from "../../components/button/Button";
-import { Footer } from "../../components/footer/Footer";
-import { Header } from "../../components/header/Header";
+import { Button } from "../../components/static/button/Button";
+import { Footer } from "../../components/static/footer/Footer";
+import { Header } from "../../components/static/header/Header";
 
 export const Home = () => {
 	return (

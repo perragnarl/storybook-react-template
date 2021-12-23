@@ -1,0 +1,74 @@
+:root {
+	/* Colors */
+	--black-coral: #5E6472;
+	--powder-blue: #AED9E0;
+	--aero-blue: #B8F2E6;
+	--eggshell: #FAF3DD;
+	--melon: #FFA69E;
+}
+
+html,
+body {
+	height: 100%;
+}
+body {
+	font-family: sans-serif;
+	color: var(--black-coral);
+}
+
+.header {
+	padding:20px 60px;
+	display:flex;
+	flex: 1 1 0px;
+	justify-content: space-between;
+	background-color: var(--powder-blue);
+	align-items: center;
+}
+
+.footer {
+	background-color: var(--powder-blue);
+	padding: 20px 60px;
+}
+
+.main-nav {
+	display:flex;
+	gap: 20px;
+	justify-content: space-between;
+}
+.main-nav a {
+	color:inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.button {
+	display: inline-flex;
+	border-radius: 0.5rem;
+	border: 0;
+	font-family: sans-serif;
+	line-height: 1;
+	padding:0.75rem 1.25rem;
+	font-weight: bold;
+	cursor: pointer;
+	color:var(--black-coral);
+}
+.button--primary {
+	background-color: var(--melon);
+}
+.button--primary:hover {
+	background-color: var(--aero-blue);
+}
+.button--secondary {
+	background-color: var(--aero-blue);
+}
+.button--ghost {
+	border: 1px solid var(--black-coral);
+	background-color: transparent;
+}
+.button--ghost:hover {
+	background-color: var(--black-coral);
+	color:var(--eggshell);
+}
+
+
+
